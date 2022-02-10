@@ -25,8 +25,9 @@
                     android:id="@+id/imageView15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    app:srcCompat="@drawable/the_film" />
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/maybephoto" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -54,7 +55,7 @@
                     android:layout_gravity="right|top"
                     android:layout_marginTop="43dp"
                     android:layout_marginRight="50dp"
-                    app:srcCompat="@drawable/the_message" />
+                    android:background="@drawable/trymessage" />
 
                 <FrameLayout
                     android:layout_width="wrap_content"
@@ -150,8 +151,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="9dp"
                     android:layout_marginTop="60dp"
+                    android:background="@drawable/goingback_button"
                     android:onClick="click"
-                    app:srcCompat="@drawable/goingback_button" />
+                    app:srcCompat="@drawable/trygoingback" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -185,11 +187,11 @@
 
                         <ImageView
                             android:id="@+id/imageView24"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_width="135dp"
+                            android:layout_height="75dp"
                             android:layout_marginLeft="16dp"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/the_photo_of_the_film2" />
+                            android:background="@drawable/trytokadr" />
 
                         <ImageView
                             android:id="@+id/imageView25"
@@ -197,7 +199,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="16dp"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/the_photo_of_the_film1" />
+                            android:background="@drawable/trytokadrr" />
 
                         <ImageView
                             android:id="@+id/imageView"
@@ -205,7 +207,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="16dp"
                             android:layout_weight="1"
-                            android:src="@drawable/the_photo_of_the_film2" />
+                            android:background="@drawable/trytokadr" />
 
                         <ImageView
                             android:id="@+id/imageView3"
@@ -213,7 +215,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="16dp"
                             android:layout_weight="1"
-                            android:src="@drawable/the_photo_of_the_film1" />
+                            android:background="@drawable/trytokadrr" />
                     </LinearLayout>
                 </HorizontalScrollView>
 
@@ -260,20 +262,20 @@
                     android:id="@+id/imageView20"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/the_film_tizer" />
+                    android:background="@drawable/the_film_tizer" />
 
                 <ImageView
                     android:id="@+id/imageView22"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/the_darkness" />
+                    android:background="@drawable/the_darkness" />
 
                 <ImageView
                     android:id="@+id/imageView21"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/play_2" />
+                    android:background="@drawable/play_2" />
 
                 <ImageView
                     android:id="@+id/imageView28"
@@ -352,7 +354,7 @@
                     android:layout_width="500dp"
                     android:layout_height="300dp"
                     android:layout_marginLeft="16dp"
-                    app:srcCompat="@drawable/episode1" />
+                    android:background="@drawable/episode1" />
 
                 <TextView
                     android:id="@+id/textView23"
@@ -426,7 +428,7 @@
                     android:layout_width="500dp"
                     android:layout_height="300dp"
                     android:layout_marginLeft="16dp"
-                    app:srcCompat="@drawable/episode2" />
+                    android:background="@drawable/episode2" />
             </FrameLayout>
 
         </LinearLayout>
