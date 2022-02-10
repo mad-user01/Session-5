@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.CinemaWorldTV" parent="@style/Theme.Leanback" />
+</resources>
